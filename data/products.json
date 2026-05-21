@@ -1,0 +1,912 @@
+{
+  "settings": {
+    "commonLogo": "aura-logo.png",
+    "halalBadge": "halal.png",
+    "categoryLabels": {
+      "beauty": "label-beauty.png",
+      "food": "label-food.png"
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "brandName": "AURA",
+      "companyName": "닥터나인틴",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "닥터나인틴의 기초화장품 제품입니다.",
+      "productImages": [
+        "1-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://drnineteen.com",
+      "x": 41.8,
+      "y": 48.18
+    },
+    {
+      "id": 2,
+      "brandName": "AURA",
+      "companyName": "더블유프롬",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "더블유프롬의 기초화장품 제품입니다.",
+      "productImages": [
+        "2-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.returnu.com",
+      "x": 56.71,
+      "y": 64.5
+    },
+    {
+      "id": 3,
+      "brandName": "AURA",
+      "companyName": "더셀앤컴퍼니",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "피부과 더마화장품",
+      "productNameEn": "",
+      "description": "더셀앤컴퍼니의 피부과 더마화장품 제품입니다.",
+      "productImages": [
+        "3-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.thecell-lab.com",
+      "x": 43.34,
+      "y": 63.81
+    },
+    {
+      "id": 4,
+      "brandName": "AURA",
+      "companyName": "디팩코퍼레이션",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "디팩코퍼레이션의 기초화장품 제품입니다.",
+      "productImages": [
+        "4-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://shopee.sg/nolahour.sg",
+      "x": 30.54,
+      "y": 56.09
+    },
+    {
+      "id": 5,
+      "brandName": "AURA",
+      "companyName": "미스코스",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "마스크팩, 바디필링제, 클렌징티슈, 립틴트",
+      "productNameEn": "",
+      "description": "미스코스의 마스크팩, 바디필링제, 클렌징티슈, 립틴트 제품입니다.",
+      "productImages": [
+        "5-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://misko.cafe24.com/shop2",
+      "x": 67.8,
+      "y": 64.75
+    },
+    {
+      "id": 6,
+      "brandName": "AURA",
+      "companyName": "보아스테크",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품, 이너뷰티",
+      "productNameEn": "",
+      "description": "보아스테크의 기초화장품, 이너뷰티 제품입니다.",
+      "productImages": [
+        "6-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://voastech.cafe24.com/shop2/",
+      "x": 91.78,
+      "y": 66.13
+    },
+    {
+      "id": 7,
+      "brandName": "AURA",
+      "companyName": "서아",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "스킨케어",
+      "productNameEn": "",
+      "description": "서아의 스킨케어 제품입니다.",
+      "productImages": [
+        "7-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.damtone.com",
+      "x": 63.44,
+      "y": 40.64
+    },
+    {
+      "id": 8,
+      "brandName": "AURA",
+      "companyName": "시크릿키",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "시크릿키의 기초화장품 제품입니다.",
+      "productImages": [
+        "8-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.secretkey.co.kr",
+      "x": 58.76,
+      "y": 64.75
+    },
+    {
+      "id": 9,
+      "brandName": "AURA",
+      "companyName": "심플리오",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "헤어케어",
+      "productNameEn": "",
+      "description": "심플리오의 헤어케어 제품입니다.",
+      "productImages": [
+        "9-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://simplyo-life.com/",
+      "x": 32.24,
+      "y": 47.24
+    },
+    {
+      "id": 10,
+      "brandName": "AURA",
+      "companyName": "아이비메이커즈",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "아이비메이커즈의 기초화장품 제품입니다.",
+      "productImages": [
+        "10-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.slowpure.com",
+      "x": 59.31,
+      "y": 55.9
+    },
+    {
+      "id": 11,
+      "brandName": "AURA",
+      "companyName": "아이코스랩",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "아이코스랩의 기초화장품 제품입니다.",
+      "productImages": [
+        "11-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://linktr.ee/cosheal",
+      "x": 57.57,
+      "y": 47.99
+    },
+    {
+      "id": 12,
+      "brandName": "AURA",
+      "companyName": "앙티브",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품, 색조화장품, 향수",
+      "productNameEn": "",
+      "description": "앙티브의 기초화장품, 색조화장품, 향수 제품입니다.",
+      "productImages": [
+        "12-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://herstellerbeauty.com/",
+      "x": 62.66,
+      "y": 48.44
+    },
+    {
+      "id": 13,
+      "brandName": "AURA",
+      "companyName": "에스에이아이인터내셔널",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "에스에이아이인터내셔널의 기초화장품 제품입니다.",
+      "productImages": [
+        "13-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "http://www.fravita.kr",
+      "x": 30.99,
+      "y": 39.41
+    },
+    {
+      "id": 14,
+      "brandName": "AURA",
+      "companyName": "에스티유",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "에스티유의 기초화장품 제품입니다.",
+      "productImages": [
+        "14-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.stu-international.com",
+      "x": 41.4,
+      "y": 56.09
+    },
+    {
+      "id": 15,
+      "brandName": "AURA",
+      "companyName": "엔에이엠랩",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "엔에이엠랩의 기초화장품 제품입니다.",
+      "productImages": [
+        "15-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://buly.kr/FhPcPcL",
+      "x": 67.4,
+      "y": 48.55
+    },
+    {
+      "id": 16,
+      "brandName": "AURA",
+      "companyName": "이지비건",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "색조화장품, 기초화장품",
+      "productNameEn": "",
+      "description": "이지비건의 색조화장품, 기초화장품 제품입니다.",
+      "productImages": [
+        "16-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.qoo10.jp/shop/egvegan",
+      "x": 36.01,
+      "y": 55.71
+    },
+    {
+      "id": 17,
+      "brandName": "AURA",
+      "companyName": "인산가",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "건강식품",
+      "productNameEn": "",
+      "description": "인산가의 건강식품 제품입니다.",
+      "productImages": [
+        "17-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://www.k-lavasalt.com",
+      "x": 97.52,
+      "y": 74.68
+    },
+    {
+      "id": 18,
+      "brandName": "AURA",
+      "companyName": "인유어하트",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "인유어하트의 기초화장품 제품입니다.",
+      "productImages": [
+        "18-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.inyourheart.co.kr",
+      "x": 43.74,
+      "y": 48.18
+    },
+    {
+      "id": 19,
+      "brandName": "AURA",
+      "companyName": "제로셋",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "클렌징",
+      "productNameEn": "",
+      "description": "제로셋의 클렌징 제품입니다.",
+      "productImages": [
+        "19-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://linktr.ee/zeroset_global",
+      "x": 69.9,
+      "y": 65.12
+    },
+    {
+      "id": 20,
+      "brandName": "AURA",
+      "companyName": "제이인터내셔널",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "제이인터내셔널의 기초화장품 제품입니다.",
+      "productImages": [
+        "20-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://en.rivecowe.co.kr/",
+      "x": 36.88,
+      "y": 47.99
+    },
+    {
+      "id": 21,
+      "brandName": "AURA",
+      "companyName": "콜롬비아헬스케어",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "콜롬비아헬스케어의 기초화장품 제품입니다.",
+      "productImages": [
+        "21-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://en.radicell.com",
+      "x": 70.33,
+      "y": 56.09
+    },
+    {
+      "id": 22,
+      "brandName": "AURA",
+      "companyName": "클로사",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "클로사의 기초화장품 제품입니다.",
+      "productImages": [
+        "22-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://en.saintfran.com",
+      "x": 68.27,
+      "y": 56.84
+    },
+    {
+      "id": 23,
+      "brandName": "AURA",
+      "companyName": "핸섬코스",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "핸섬코스의 기초화장품 제품입니다.",
+      "productImages": [
+        "23-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://dellaborn.com",
+      "x": 37.63,
+      "y": 39.51
+    },
+    {
+      "id": 24,
+      "brandName": "AURA",
+      "companyName": "그래비티",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "음료",
+      "productNameEn": "",
+      "description": "그래비티의 음료 제품입니다.",
+      "productImages": [
+        "24-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.gra-vity.kr/",
+      "x": 2.64,
+      "y": 39.9
+    },
+    {
+      "id": 25,
+      "brandName": "AURA",
+      "companyName": "그리니",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "바디케어",
+      "productNameEn": "",
+      "description": "그리니의 바디케어 제품입니다.",
+      "productImages": [
+        "25-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://WWW.FULIM.CO.KR",
+      "x": 67.87,
+      "y": 40.83
+    },
+    {
+      "id": 26,
+      "brandName": "AURA",
+      "companyName": "더마룹",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "더마룹의 기초화장품 제품입니다.",
+      "productImages": [
+        "26-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://en.oget.co.kr/",
+      "x": 57.21,
+      "y": 39.89
+    },
+    {
+      "id": 27,
+      "brandName": "AURA",
+      "companyName": "더바른푸드",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "건강식품",
+      "productNameEn": "",
+      "description": "더바른푸드의 건강식품 제품입니다.",
+      "productImages": [
+        "27-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.blackpalace.kr",
+      "x": 8.38,
+      "y": 65.07
+    },
+    {
+      "id": 28,
+      "brandName": "AURA",
+      "companyName": "라운드얼스",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "라운드얼스의 기초화장품 제품입니다.",
+      "productImages": [
+        "28-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://en.fair-cell.com/",
+      "x": 64.47,
+      "y": 48.36
+    },
+    {
+      "id": 29,
+      "brandName": "AURA",
+      "companyName": "루토닉스",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "헤어케어, 기초화장품",
+      "productNameEn": "",
+      "description": "루토닉스의 헤어케어, 기초화장품 제품입니다.",
+      "productImages": [
+        "29-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://rootonix.kr/en/",
+      "x": 36.05,
+      "y": 39.51
+    },
+    {
+      "id": 30,
+      "brandName": "AURA",
+      "companyName": "리블로셀",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "리블로셀의 기초화장품 제품입니다.",
+      "productImages": [
+        "30-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.reblocell.kr",
+      "x": 41.28,
+      "y": 39.98
+    },
+    {
+      "id": 31,
+      "brandName": "AURA",
+      "companyName": "미니멀리빙",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "건강식품",
+      "productNameEn": "",
+      "description": "미니멀리빙의 건강식품 제품입니다.",
+      "productImages": [
+        "31-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.minimalliving.co.kr",
+      "x": 9.34,
+      "y": 48.86
+    },
+    {
+      "id": 32,
+      "brandName": "AURA",
+      "companyName": "뷰티씨커스",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "뷰티씨커스의 기초화장품 제품입니다.",
+      "productImages": [
+        "32-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://fromzerolab.com/",
+      "x": 43.22,
+      "y": 40.08
+    },
+    {
+      "id": 33,
+      "brandName": "AURA",
+      "companyName": "브에노바이오",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "브에노바이오의 기초화장품 제품입니다.",
+      "productImages": [
+        "33-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://bueno-bio.com/",
+      "x": 97.47,
+      "y": 39.41
+    },
+    {
+      "id": 34,
+      "brandName": "AURA",
+      "companyName": "비이커앤플라스크",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "비이커앤플라스크의 기초화장품 제품입니다.",
+      "productImages": [
+        "34-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://theuaq.com",
+      "x": 64.43,
+      "y": 56.46
+    },
+    {
+      "id": 35,
+      "brandName": "AURA",
+      "companyName": "셀비오코스메틱",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "셀비오코스메틱의 기초화장품 제품입니다.",
+      "productImages": [
+        "35-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.cellviocosmetic.co.kr/",
+      "x": 37.67,
+      "y": 56.09
+    },
+    {
+      "id": 36,
+      "brandName": "AURA",
+      "companyName": "아임",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "헤어드라이기",
+      "productNameEn": "",
+      "description": "아임의 헤어드라이기 제품입니다.",
+      "productImages": [
+        "36-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://en.duzdryer.com",
+      "x": 32.2,
+      "y": 64.37
+    },
+    {
+      "id": 37,
+      "brandName": "AURA",
+      "companyName": "유니씨글로벌",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "유니씨글로벌의 기초화장품 제품입니다.",
+      "productImages": [
+        "37-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://en.abelty.com/",
+      "x": 41.11,
+      "y": 63.85
+    },
+    {
+      "id": 38,
+      "brandName": "AURA",
+      "companyName": "이지텍",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "스낵",
+      "productNameEn": "",
+      "description": "이지텍의 스낵 제품입니다.",
+      "productImages": [
+        "38-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://jayeongongyu.com",
+      "x": 8.54,
+      "y": 39.14
+    },
+    {
+      "id": 39,
+      "brandName": "AURA",
+      "companyName": "제발사라",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "제발사라의 기초화장품 제품입니다.",
+      "productImages": [
+        "39-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.jbsara.com",
+      "x": 62.52,
+      "y": 56.84
+    },
+    {
+      "id": 40,
+      "brandName": "AURA",
+      "companyName": "제이앤지코스메틱",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품",
+      "productNameEn": "",
+      "description": "제이앤지코스메틱의 기초화장품 제품입니다.",
+      "productImages": [
+        "40-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://gsley.co.kr/jsley/eng/page/main.asp",
+      "x": 69.62,
+      "y": 40.83
+    },
+    {
+      "id": 41,
+      "brandName": "AURA",
+      "companyName": "지디코퍼레이션",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "향수/디퓨저",
+      "productNameEn": "",
+      "description": "지디코퍼레이션의 향수/디퓨저 제품입니다.",
+      "productImages": [
+        "41-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://en.zero-oclock.com",
+      "x": 59.04,
+      "y": 40.08
+    },
+    {
+      "id": 42,
+      "brandName": "AURA",
+      "companyName": "청안오가닉스",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "건강기능식품",
+      "productNameEn": "",
+      "description": "청안오가닉스의 건강기능식품 제품입니다.",
+      "productImages": [
+        "42-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://www.meditamin.com",
+      "x": 95.14,
+      "y": 63.28
+    },
+    {
+      "id": 43,
+      "brandName": "AURA",
+      "companyName": "코리아트레이드",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "스킨케어",
+      "productNameEn": "",
+      "description": "코리아트레이드의 스킨케어 제품입니다.",
+      "productImages": [
+        "43-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://www.koreatrade.biz",
+      "x": 97.44,
+      "y": 56.03
+    },
+    {
+      "id": 44,
+      "brandName": "AURA",
+      "companyName": "한백글로벌",
+      "companyNameEn": "",
+      "category": "beauty",
+      "categoryText": "K-Beauty",
+      "productName": "기초화장품, 클렌징케어",
+      "productNameEn": "",
+      "description": "한백글로벌의 기초화장품, 클렌징케어 제품입니다.",
+      "productImages": [
+        "44-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://www.wellright.kr",
+      "x": 70.27,
+      "y": 48.45
+    },
+    {
+      "id": 45,
+      "brandName": "AURA",
+      "companyName": "헬스앤뷰티",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "간편식, 음료",
+      "productNameEn": "",
+      "description": "헬스앤뷰티의 간편식, 음료 제품입니다.",
+      "productImages": [
+        "45-1.png"
+      ],
+      "hasHalal": false,
+      "siteUrl": "https://linktr.ee/hnb_club",
+      "x": 2.69,
+      "y": 55.21
+    },
+    {
+      "id": 46,
+      "brandName": "AURA",
+      "companyName": "다니엘컴퍼니",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "음료",
+      "productNameEn": "",
+      "description": "다니엘컴퍼니의 음료 제품입니다.",
+      "productImages": [
+        "46-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://www.danielcompany.co.kr",
+      "x": 97.8,
+      "y": 63.05
+    },
+    {
+      "id": 47,
+      "brandName": "AURA",
+      "companyName": "예성에프엔비",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "캔디류 스낵",
+      "productNameEn": "",
+      "description": "예성에프엔비의 캔디류 스낵 제품입니다.",
+      "productImages": [
+        "47-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://yesungfnbe.imweb.me",
+      "x": 97.33,
+      "y": 48.21
+    },
+    {
+      "id": 48,
+      "brandName": "AURA",
+      "companyName": "청산에식품",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "김스낵, 구이김",
+      "productNameEn": "",
+      "description": "청산에식품의 김스낵, 구이김 제품입니다.",
+      "productImages": [
+        "48-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://www.chungsanea.com",
+      "x": 91.22,
+      "y": 47.23
+    },
+    {
+      "id": 49,
+      "brandName": "AURA",
+      "companyName": "꼬랑지마카롱",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "제과, 디저트",
+      "productNameEn": "",
+      "description": "꼬랑지마카롱의 제과, 디저트 제품입니다.",
+      "productImages": [
+        "49-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://www.ggorangjicaron.com",
+      "x": 93.1,
+      "y": 74.28
+    },
+    {
+      "id": 50,
+      "brandName": "AURA",
+      "companyName": "리뉴얼라이프",
+      "companyNameEn": "",
+      "category": "food",
+      "categoryText": "K-Food",
+      "productName": "스낵",
+      "productNameEn": "",
+      "description": "리뉴얼라이프의 스낵 제품입니다.",
+      "productImages": [
+        "50-1.png"
+      ],
+      "hasHalal": true,
+      "siteUrl": "https://renewallife.com/default/main/us.php",
+      "x": 90.27,
+      "y": 37.82
+    }
+  ]
+}

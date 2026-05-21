@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AURA K Premium Space</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/intro.css" />
+</head>
+
+<body>
+  <!-- Intro Particle Screen -->
+  <div id="introParticleWrap" class="intro-particle-wrap">
+    <canvas id="introParticles" class="intro-particles"></canvas>
+
+    <div class="intro-logo">
+      <img
+        src="images/common/aura-logo.png"
+        alt="AURA"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+      />
+      <span class="intro-logo-text">AURA</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+  <div class="container nav-bar">
+    <div class="header-left">
+      <img
+        src="images/common/logo.png"
+        alt="AURA"
+        class="header-side-logo"
+      />
+    </div>
+
+    <div class="logo">
+      <img
+        src="images/common/aura-logo.png"
+        alt="AURA"
+        class="header-logo-img"
+      />
+    </div>
+
+    <nav class="header-right">
+      
+
+      <button class="nav-link nav-button" id="all-products-btn" type="button">
+        ALL PRODUCTS
+      </button>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <!-- Showroom -->
+    <section class="showroom" id="showroom">
+      <button
+        class="showroom-nav showroom-nav-left"
+        id="showroomPrev"
+        type="button"
+        aria-label="왼쪽으로 이동"
+      >
+        ‹
+      </button>
+
+      <div class="showroom-bg">
+        <div id="hotspot-layer" class="hotspot-layer"></div>
+
+        <div class="showroom-overlay">
+          <div class="showroom-copy"></div>
+        </div>
+      </div>
+
+      <button
+        class="showroom-nav showroom-nav-right"
+        id="showroomNext"
+        type="button"
+        aria-label="오른쪽으로 이동"
+      >
+        ›
+      </button>
+    </section>
+
+    <!-- Product List Section -->
+    <section class="products" aria-label="제품 목록">
+      <div class="container">
+        <div class="section-header">
+          <h2>Products</h2>
+          <p>전시 상품 목록입니다.</p>
+        </div>
+
+        <div id="product-list" class="product-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Product Modal -->
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal"></div>
+  </div>
+
+  <!-- All Products Bottom Panel -->
+  <aside class="product-panel" id="productPanel" aria-hidden="true">
+    <div class="product-panel-content">
+      <div class="product-panel-header">
+        <h2>All Products</h2>
+
+        <button
+          class="panel-close"
+          id="panel-close"
+          type="button"
+          aria-label="상품 패널 닫기"
+        >
+          ×
+        </button>
+      </div>
+
+      <div class="product-panel-filters" id="filterButtons"></div>
+
+      <div class="product-panel-list" id="panelProductList"></div>
+    </div>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© AURA K Premium Space</p>
+    </div>
+  </footer>
+
+  <script src="js/intro-particles.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
