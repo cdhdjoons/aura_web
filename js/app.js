@@ -803,21 +803,22 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
 
         <div class="modal-info-row">
-          <div class="modal-info-item">
-            <strong>${companyName}</strong>
-            ${companyNameEn ? `<span>(${companyNameEn})</span>` : ""}
-          </div>
+  <div class="modal-info-text">
+    <div class="modal-company-name">
+      ${companyName}
+      ${companyNameEn ? `<span>(${companyNameEn})</span>` : ""}
+    </div>
 
-          <div class="modal-info-item modal-info-product">
-            <strong>${productName}</strong>
-            ${productNameEn ? `<span>(${productNameEn})</span>` : ""}
-          </div>
+    <div class="modal-product-name">
+      ${productName}
+      ${productNameEn ? `<span>(${productNameEn})</span>` : ""}
+    </div>
+  </div>
 
-          <button class="modal-site" type="button" ${siteUrlForCurrentProduct ? "" : "disabled"}>
-            SITE <span>▶</span>
-          </button>
-        </div>
-      </div>
+  <button class="modal-site" type="button" ${siteUrlForCurrentProduct ? "" : "disabled"}>
+    SITE <span>▶</span>
+  </button>
+</div>
     `;
 
     const closeButton = modal.querySelector(".modal-close");

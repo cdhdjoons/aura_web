@@ -805,41 +805,59 @@ nav,
 
 .modal-info-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  column-gap: 0;
+  gap: 24px;
   margin-top: 52px;
   color: #fff;
   width: 100%;
 }
 
-.modal-info-item {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: 5px;
+.modal-info-text {
   min-width: 0;
+  text-align: left;
+  line-height: 1.25;
+}
+
+.modal-company-name {
+  max-width: 100%;
+  font-size: 1.02rem;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  color: #ffffff;
   white-space: nowrap;
-  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.modal-info-item strong {
-  font-size: 1.04rem;
-  font-weight: 800;
+.modal-company-name span {
+  margin-left: 4px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.86;
 }
 
-.modal-info-item span {
-  font-size: 0.84rem;
-  font-weight: 600;
-  opacity: 0.9;
+.modal-product-name {
+  margin-top: 5px;
+  max-width: 100%;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.92);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.modal-info-product {
-  justify-content: center;
+.modal-product-name span {
+  margin-left: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  opacity: 0.82;
 }
 
 .modal-info-row .modal-site {
-  justify-self: center;
+  justify-self: end;
+  flex-shrink: 0;
 }
 
 .modal-site {
@@ -1242,18 +1260,31 @@ nav,
   }
 
   .hotspot {
-    width: 44px;
-    height: 44px;
+    width: 28px;
+    height: 28px;
+    border-width: 1px;
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+      0 0 12px rgba(255, 255, 255, 0.08);
   }
 
   .hotspot::before {
-    width: 16px;
-    height: 1.5px;
+    width: 10px;
+    height: 1.3px;
   }
 
   .hotspot::after {
-    width: 1.5px;
-    height: 16px;
+    width: 1.3px;
+    height: 10px;
+  }
+
+  .hotspot:hover {
+    transform: translate(-50%, -50%) scale(1.08);
+  }
+
+  .hotspot:focus-visible {
+    outline-offset: 3px;
   }
 
   .modal-overlay {
@@ -1421,5 +1452,102 @@ nav,
   .showroom.is-moving-right .showroom-bg::before {
     transform: scale(1);
     filter: none;
+  }
+}
+
+/* =========================
+   Mobile Showroom Scale Fix
+   모바일에서 배경을 크게 보이게 하고 스팟 축소
+========================= */
+
+@media (max-width: 768px) {
+  :root {
+    /*
+      모바일에서 파노라마 이미지가 작게 보이지 않도록
+      쇼룸 전체 가로폭을 넓혀서 contain 이미지가 세로 높이에 맞게 표시되도록 함
+    */
+    --showroom-width: 1000vw;
+  }
+
+  .showroom {
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: #070814;
+  }
+
+  .showroom-bg {
+    width: var(--showroom-width);
+    min-width: var(--showroom-width);
+    height: calc(100vh - var(--header-height));
+  }
+
+  .showroom-bg::before {
+    background-size: contain;
+    background-position: center center;
+  }
+
+  /*
+    모바일 스팟 크기 축소
+  */
+  .hotspot {
+    width: 22px;
+    height: 22px;
+    border-width: 1px;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+      0 0 8px rgba(255, 255, 255, 0.08);
+    animation: hotspotPulseMobile 2600ms ease-out infinite;
+  }
+
+  .hotspot::before {
+    width: 8px;
+    height: 1.2px;
+  }
+
+  .hotspot::after {
+    width: 1.2px;
+    height: 8px;
+  }
+
+  .hotspot:hover {
+    transform: translate(-50%, -50%) scale(1.08);
+  }
+
+  .hotspot:focus-visible {
+    outline-offset: 2px;
+  }
+
+  /*
+    DEV 모드 번호도 모바일에서는 작게
+  */
+  .hotspot-number {
+    top: -18px;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  @keyframes hotspotPulseMobile {
+    0% {
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+        0 0 0 0 rgba(255, 255, 255, 0.18);
+    }
+
+    70% {
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+        0 0 0 5px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+        0 0 0 0 rgba(255, 255, 255, 0);
+    }
   }
 }
